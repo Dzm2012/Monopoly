@@ -16,23 +16,13 @@ using System.Windows.Shapes;
 namespace Monopoly_Client
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Example_Controler.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Example_Controler : UserControl
     {
-        public MainWindow()
+        public Example_Controler()
         {
             InitializeComponent();
-        }
-
-        private void ContentControl_KeyDown(object sender, KeyEventArgs e)
-        {
-            ContentPanel.Content = new Example_Controler();
-        }
-
-        private void Window_KeyDown(object sender, KeyEventArgs e)
-        {
-            ContentPanel.Content = new Example_Controler();
         }
     }
 }
