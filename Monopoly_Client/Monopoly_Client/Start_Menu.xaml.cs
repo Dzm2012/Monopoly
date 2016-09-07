@@ -27,7 +27,8 @@ namespace Monopoly_Client
 
         private void conServer_Click(object sender, RoutedEventArgs e)
         {
-
+            Server.Service1Client ser = Server.Service1Client();
+            var temp = Server.Service1Client.GetData(3);
         }
     }
 }
