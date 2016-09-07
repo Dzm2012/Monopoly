@@ -5,11 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monopoly_Client", "Monopoly_Client\Monopoly_Client.csproj", "{5EF8FEA5-B6C4-465D-B6FC-C2FF9C710547}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{BD6DA643-D324-4FD5-A829-71816ED60A10}"
-	ProjectSection(SolutionItems) = preProject
-		..\Images\TitleScreen.png = ..\Images\TitleScreen.png
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

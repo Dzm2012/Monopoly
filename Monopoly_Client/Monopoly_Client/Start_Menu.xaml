@@ -5,9 +5,12 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Monopoly_Client"
              mc:Ignorable="d" 
-             d:DesignHeight="900" d:DesignWidth="1600" Foreground="Black" Background="Black">
+             d:DesignHeight="900" d:DesignWidth="1600">
+    <UserControl.Background>
+        <ImageBrush ImageSource="Images/TitleScreen.png"/>
+    </UserControl.Background>
     <Grid Width="1600" Height="900">
-        <ContentControl HorizontalAlignment="Left" VerticalAlignment="Top" Height="900" Width="1600" Background="Black">
+        <ContentControl HorizontalAlignment="Left" VerticalAlignment="Top" Height="900" Width="1600">
             <Button x:Name="conServer" Content="Button" HorizontalAlignment="Left" Height="82" Margin="680,423,0,0" VerticalAlignment="Top" Width="286" Click="conServer_Click"/>
         </ContentControl>
 

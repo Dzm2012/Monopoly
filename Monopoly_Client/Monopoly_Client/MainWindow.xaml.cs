@@ -23,17 +23,17 @@ namespace Monopoly_Client
         public MainWindow()
         {
             InitializeComponent();
-            ContentPanel.Content = new Start_Menu()
+            ContentPanel.Content = new Start_Menu();
         }
 
         private void ContentControl_KeyDown(object sender, KeyEventArgs e)
         {
-            ContentPanel.Content = new Example_Controler();
+            ContentPanel.Content = new Start_Menu();
         }
 
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
-            ContentPanel.Content = new Example_Controler();
+            ContentPanel.Content = new Start_Menu();
         }
     }
 }
