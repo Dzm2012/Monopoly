@@ -23,6 +23,7 @@ namespace Monopoly_Client
         public MainWindow()
         {
             InitializeComponent();
+            ContentPanel.Content = new Start_Menu()
         }
 
         private void ContentControl_KeyDown(object sender, KeyEventArgs e)

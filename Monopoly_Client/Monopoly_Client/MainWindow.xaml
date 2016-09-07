@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="900" Width="1600" KeyDown="Window_KeyDown">
     <Grid>
-        <ContentControl Content="" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="517" KeyDown="ContentControl_KeyDown" Name="ContentPanel"/>
+        <ContentControl Content="" HorizontalAlignment="Left" Height="869" VerticalAlignment="Top" Width="1592" KeyDown="ContentControl_KeyDown" Name="ContentPanel"/>
 
     </Grid>
 </Window>

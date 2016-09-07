@@ -24,5 +24,10 @@ namespace Monopoly_Client
         {
             InitializeComponent();
         }
+
+        private void conServer_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

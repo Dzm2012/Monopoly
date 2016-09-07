@@ -7,7 +7,9 @@
              mc:Ignorable="d" 
              d:DesignHeight="900" d:DesignWidth="1600" Foreground="Black" Background="Black">
     <Grid Width="1600" Height="900">
-        <ContentControl Content="ContentControl" HorizontalAlignment="Left" VerticalAlignment="Top" Height="900" Width="1600" Background="Black"/>
+        <ContentControl HorizontalAlignment="Left" VerticalAlignment="Top" Height="900" Width="1600" Background="Black">
+            <Button x:Name="conServer" Content="Button" HorizontalAlignment="Left" Height="82" Margin="680,423,0,0" VerticalAlignment="Top" Width="286" Click="conServer_Click"/>
+        </ContentControl>
 
     </Grid>
 </UserControl>
