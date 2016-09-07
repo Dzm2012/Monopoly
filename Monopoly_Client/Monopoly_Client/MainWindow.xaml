@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Monopoly_Client"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525" KeyDown="Window_KeyDown">
+        Title="MainWindow" Height="900" Width="1600" KeyDown="Window_KeyDown">
     <Grid>
         <ContentControl Content="" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="517" KeyDown="ContentControl_KeyDown" Name="ContentPanel"/>
 
